@@ -6,11 +6,12 @@ Builds a Nano ID per spect defined by [this repo](https://github.com/ai/nanoid).
 
 ## Installation and Usage:
 
-    `pip install nanopyd`
-
-    `from nanopyd import NanoID`
-
-    `id : NanoID = NanoID()`
+To install:
+`pip install nanopyd`
+Import:
+`from nanopyd import NanoID`
+Usage (with typing):
+`id : NanoID = NanoID()`
 
 ### Parameters:
 
