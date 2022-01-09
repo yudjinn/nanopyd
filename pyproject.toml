@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nanopyd"
-version = "0.1.0"
+version = "0.1.1"
 description = "nanoid implementation in python"
 authors = ["yudjinn <yudjinncoding@gmail.com>"]
 keywords = ["nanoid","typed","pydantic"]
