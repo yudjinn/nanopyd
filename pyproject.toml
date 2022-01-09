@@ -1,14 +1,24 @@
 [tool.poetry]
 name = "nanopyd"
 version = "0.1.0"
-description = ""
+description = "nanoid implementation in python"
 authors = ["yudjinn <yudjinncoding@gmail.com>"]
+keywords = ["nanoid","typed","pydantic"]
+readme="README.md"
+homepage="https://github.com/yudjinn/nanopyd"
+repository="https://github.com/yudjinn/nanopyd"
+include=[
+    "LICENCE",
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pydantic = "^1.9.0"
+pycryptodome = "^3.12.0"
+pytest = "^6.2.5"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+black = "^21.12b0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
